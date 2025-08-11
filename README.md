@@ -1,10 +1,9 @@
-#  Deadlock Detection and Avoidance using Banker's Algorithm
 
-##  What is a Deadlock?
+#  What is a Deadlock?
 
 In operating systems, a **deadlock** is a state where a group of processes are all waiting for resources that are held by other processes in the group. None of them can proceed, and the system gets stuck.
 
-###  Four Necessary Conditions for Deadlock:
+##  Four Necessary Conditions for Deadlock:
 1. **Mutual Exclusion** – Only one process can use a resource at a time.
 2. **Hold and Wait** – A process holding at least one resource is waiting to acquire additional resources.
 3. **No Preemption** – A resource can’t be forcibly taken away from a process.
